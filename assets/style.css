@@ -1,0 +1,85 @@
+/* Google font imports */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;800&display=swap');
+
+
+
+/* variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
+:root {
+  --black: #171321;
+  --soft-orange: hsl(35, 77%, 62%);
+  --sort-red: hsl(5, 85%, 63%);
+  --off-white: hsl(36, 100%, 99%);
+  --grayish-blue: hsl(233, 8%, 79%);
+  --dark-grayish-blue: hsl(236, 13%, 42%);
+  --very-dark-blue: hsl(240, 100%, 5%);
+  --font-size: 15px;
+  --mono: Inter, monospace;
+  --sans: sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(63, 35, 35);
+    font-family: var(--mono);
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+
+.navbar {
+    display: flex;
+    color: rgb(247, 247, 137);
+    font-size: 15px;
+    margin: 0;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar img {
+    width: 35px;
+}
+
+
+/* checkout box */
+
+.checkout-box {
+    background-color: var(--off-white);
+    border-radius: 4px
+}
+
+
+
+/* item section */
+
+.items {
+    
+}
+
+
+/* name section */
+
+.example-group {
+    position: relative;
+    display: inline-block;
+  }
+
+  .example-input {
+    border-color: crimson;
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  .input-label {
+    background-color: white;
+    color: crimson;
+    font-size: 11px;
+    position: absolute;
+    left: 25px;
+    top: -7px;
+    padding: 0 2px;
+  }

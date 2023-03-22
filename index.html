@@ -5,46 +5,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/style.css" />
     <title>Checkout Page</title>
 </head>
 
 <body>
-    Coffee Masters
+    <nav class="navbar">
+        <img src="assets/img/coffee_masters_logo.png" alt="coffee_masters_logo">
+        Coffee Masters
+    </nav>
+    <div class="checkout-box">
+    
+        <section class="items">
+            <h4>ITEMS</h4>
+            <p>1x</p>
+            <ul>
+                <li>Cappuccino</li>
+                <li>Light Foam</li>
+            </ul>
+            <p>$6.00</p>
+            
+            <p>1x</p>
+            <ul>
+                <li>Cappuccino</li>
+                <li>Almond Milk</li>
+                <li>Double Espresso Shot</li>
+            </ul>
+            <p>$7. 90</p>
+         
+            <p>1x</p>
+            <ul>
+                <li>Croissant</li>
+                <li>Butter</li>
+            </ul>
+            <p>$5.37</p>      
+            
+        </section>
+        <section class="input-name">
+            <h4>NAME</h4>
+            <div class="example-group">
+                <label for="example" class="input-label">Name for order</label>
+                <input id="example" class="example-input" placeholder="Ford prefect" />
+            </div>
+        </section>
+        <section class="input-card">
+            <h4>PAYMENT</h4>
+            <div class="example-group">
+                <label for="example" class="input-label">Name for order</label>
+                <input id="example" class="example-input" placeholder="Card Number" />
+            </div>
+            <div class="example-group">
+                <label for="example" class="input-label">Name for order</label>
+                <input id="example" class="example-input" placeholder="CCV Number" />
+            </div>
+        </section>
+        <section class="place-order">
+            <div>
+                <p>Subtotal</p>
+                <p>Tax</p>
+                <p>Total</p>
+            </div>
+            <div>
+                <p>$19.27</p>
+                <p>$0.96</p>
+                <p>$20.23</p>
+            </div>
+            <div>
+                <button type="button">Place Order</button>
+            </div>
+    
+        </section>
+    </div>
+    
 
-    ITEMS
-
-    1x
-    Cappuccino
-    $6.00
-    Light Foam
-
-    1xCappuccino
-    $7. 90
-    Almond Milk
-    Double Espresso Shot
-
-    1x
-    Croissant
-    $5.37
-    Butter
-
-    NAME
-    Name for order
-
-    PAYMENT
-    Card Number
-    CCV Number
-
-    Subtotal
-    $19.27
-
-    Tax
-    $0.96
-
-    Total
-    $20.23
-
-    Place Order
 </body>
 
 </html>
