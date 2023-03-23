@@ -83,8 +83,20 @@ body {
     grid-row: 3/4;
 }
 
-/* item section */
 
+/* Create the media query */
+@media screen and (max-width: 600px) {
+  /* Turn our article into a CSS grid */
+  .checkout-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+
+
+}
 .beige-box {
     background-color: var(--beige);
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -132,7 +144,21 @@ body {
     justify-content: flex-start;
 }
 
+@media screen and (max-width: 600px) {
+  /* Turn our article into a CSS grid */
+  .beige-box {
+    width: 80%;
+  }
 
+  .place-order {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subtotal-type div:last-child {
+    margin-left: 20px;
+  }
+}
 
 /* name section */
 
