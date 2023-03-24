@@ -7,13 +7,12 @@
 :root {
   --black: #171321;
   --soft-orange: hsl(35, 77%, 62%);
-  --sort-red: hsl(5, 85%, 63%);
-  --off-white: hsl(36, 100%, 99%);
-  --grayish-blue: hsl(233, 8%, 79%);
-  --dark-grayish-blue: hsl(236, 13%, 42%);
-  --very-dark-blue: hsl(240, 100%, 5%);
-  --beige: rgb(242, 230, 209);
-  --brown: rgb(98, 66, 52);
+  --soft-brown: #885a2d;
+  --off-white: #efefef;
+  --light-beige: #fbf2c0;
+  --dark-brownish: #b08968;
+  --beige: #eee1d5;
+  --brown: #43281c;
   --font-size: 15px;
   --mono: 'Inter', monospace;
   --sans: sans-serif;
@@ -28,14 +27,14 @@ body {
     font-family: var(--mono);
     margin: 0;
     padding: 0;
-    color: var(--brown);
+    color: var(--soft-brown);
 }
 
 /* navbar */
 
 .navbar {
     display: flex;
-    color: rgb(247, 247, 137);
+    color: var(--light-beige);
     font-size: 15px;
     margin: 0;
     padding: 8px;
@@ -175,14 +174,14 @@ body {
   .example-input {
     padding: 8px;
     border-radius: 50px;
-    border: 1px solid var(--brown);
+    border: 1px solid var(--soft-brown);
     background-color: var(--beige);
     width: 95%;
   }
 
   .input-label {
     background-color: var(--beige);
-    color: var(--brown);
+    color: var(--soft-brown);
     font-size: 11px;
     position: absolute;
     left: 25px;
